@@ -34,7 +34,7 @@
         android:layout_marginLeft="28dp"
         android:layout_toRightOf="@+id/text2"
         android:ems="10"
-        android:inputType="number" >
+        android:inputType="numberDecimal" >
 
         <requestFocus />
     </EditText>
@@ -55,7 +55,7 @@
         android:layout_alignLeft="@+id/txtUSDollars"
         android:layout_alignTop="@+id/textView1"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/textView2"
@@ -73,7 +73,7 @@
         android:layout_alignLeft="@+id/editText1"
         android:layout_alignTop="@+id/textView2"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/btnConvertir"
